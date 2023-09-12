@@ -1,0 +1,168 @@
+div {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+p {
+    color: #080808;
+    font-size: 14px;
+    margin: 0 0 32px 0;
+}
+
+p:last-of-type {
+    margin-bottom: 0;
+}
+
+.container {
+    max-width: 1083px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.col-1-2 {
+    float: left;
+    width: 50%;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#top-header a.top-number {
+    color: #080808;
+    font-size: 16px;
+    font-weight: 700;
+    float: right;
+}
+
+#top-header {
+    padding: 28px 0;
+}
+
+ul.navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#main-nav .navigation li {
+    float: left;
+    margin-right: 38px;
+}
+
+#main-nav {
+    padding: 25px 0;
+    background: #080808;
+}
+
+#main-nav a {
+    color: #fff;
+    font-size: 14px;
+}
+
+#page-title h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+	text-align: center;
+}
+
+#page-title {
+    padding: 58px 0 54px;
+    background: #fe6f61;
+}
+
+#starting-wordpress {
+    padding: 52px 0;
+    background: #fafafa;
+}
+
+#starting-wordpress h4 {
+    color: #080808;
+    font-size: 18px;
+    margin-bottom: 28px;
+}
+
+#starting-wordpress {
+    padding-top: 51px;
+}
+
+.sw-content {
+    margin-bottom: 124px;
+}
+
+.sw-portfolio h3 {
+    color: #080808;
+    font-size: 18px;
+    margin-bottom: 29px;
+    font-weight: 400;
+}
+
+.sw-portfolio .col-1-2:first-child {
+    padding-right: 30px;
+}
+
+.sw-portfolio .col-1-2:last-child {
+    padding-left: 30px;
+}
+
+#footer-cta {
+    text-align: center;
+    padding: 53px 0;
+}
+
+#footer-cta h2 {
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+#footer-cta p {
+    color: #fff;
+    margin-bottom: 27px;
+}
+
+#footer-cta a {
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    background: #5cc6d0;
+    padding: 5px 14px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+#footer-cta .container {
+    background: url(cta-bg.jpg);
+    padding: 40px;
+    background-size: cover;
+}
+
+a.terms-link {
+    float: right;
+    color: #fff;
+    font-size: 12px;
+}
+
+#bottom-footer p {
+    color: #fff;
+    font-size: 12px;
+}
+
+#bottom-footer {
+    background: #080808;
+    padding: 25px 0;
+}
